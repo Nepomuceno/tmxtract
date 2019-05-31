@@ -21,7 +21,7 @@ tmxtract -s <source-languge> -d <destiation-language>
 
 ## Parameters
 
-```txt
+```apache
 Usage: tmxtract [options]
 
 Options:
