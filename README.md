@@ -2,6 +2,8 @@
 
 My goal with this it is to make easier for people trying to train their own machine translator and hopefully with that help more people to offer their content to a larger audience 🗺🌟
 
+![Translation unites](./assets/header_photo.png)
+
 ## Purpose 💡
 
 This tool is designed to help you to create a basic TMX to bootstrap your translation efforts.
