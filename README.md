@@ -42,7 +42,7 @@ Options:
 - .net core >= 2.2
 - c# >= 7.1 (for the async maind method)
 
-## Downloading and executing 💾
+### Downloading and executing 💾
 
 On the command line clone the repository and restore and run 😊
 
@@ -60,3 +60,13 @@ dotnet run -s ES-ES -d EN-GB
 In this tool I am using [DGT-Translation Memory](https://ec.europa.eu/jrc/en/language-technologies/dgt-translation-memory) from the [European Comission](https://ec.europa.eu/commission/index_en) it is a corpus of professionally translated text in more than 22 languages
 
 ![Translation unites](./assets/tu.png)
+
+I download only the files needed until we get to the maximum number of translations required by the parameter `--max-translations`
+
+### Notes on languages
+
+The corpus that we are using have only EU languages so many languages are still needed to be coveres especially to point out Asian languages. if anyone has information of other corpuses of TMX files that could be included I would be happy to add them as sources.
+
+All the language especifications in the corpus are done in capitals and using the full language id. ex: `EN-GB`
+
+Important to remembr since this is a corpus done by the European comission all the languages are with their European variants `PT-PT` `EN-GB` `ES-ES` you can use language maps to map this to your desired outcome. ex: `-l PT-PT:PT-BR` or `-l EN-GB:gb`
